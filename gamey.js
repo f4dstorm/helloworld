@@ -17,6 +17,10 @@ $("body").keyup(function (event) {
   }
 });
 
+$("body").on("click", ".A", function () {
+  start();
+});
+
 function start() {
   if (started) return;
   started = true;
@@ -116,7 +120,7 @@ function end() {
 }
 
 function next() {
-  $(".timer").html("Press A to play again!");
+  $(".timer").html("Press <span class='A'>A</span> to play again!");
   score = 0;
   $(".score").html(`${score}`);
   square.width(100);
