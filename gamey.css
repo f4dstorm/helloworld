@@ -1,0 +1,183 @@
+.header {
+  font-family: "Press Start 2P", system-ui;
+  text-align: center;
+  margin: 10px;
+}
+.box {
+  margin: auto;
+  background-color: #241f1f;
+  width: 600px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  /* clear: both; */
+}
+.square {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 200px 250px;
+}
+.timer {
+  /* font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  text-align: center;
+  /* margin: 10px; */
+  float: none;
+  white-space: nowrap;
+}
+
+.scoreboard {
+  background-color: cyan;
+  text-align: center;
+  width: 200px;
+
+  position: absolute;
+  z-index: 2;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.theScore {
+  text-decoration: underline;
+}
+.close {
+  margin-bottom: 10px;
+  border-radius: 0%;
+  cursor: pointer;
+}
+.close p {
+  margin: 0px;
+  font-size: 1rem;
+}
+
+.textbox {
+  margin: auto;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center; */
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 65.33;
+}
+.scorebox {
+  /* font-family: "Pixelify Sans", sans-serif; */
+  /* grid-column: 1; */
+  text-align: left;
+  background-color: #ff0052;
+  flex: 1;
+}
+.scorebox p {
+  margin: 10px;
+  white-space: nowrap;
+}
+.timerbox {
+  /* grid-column: 2; */
+  text-align: center;
+  background-color: #0055da;
+  flex: 2;
+}
+.question {
+  background-color: #ffd400;
+  flex: 1;
+  text-align: center;
+}
+.askbtn {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.tutorial {
+  background-color: #1c83b8;
+  position: absolute;
+  z-index: 2;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.x {
+  background-color: red;
+  width: fit-content;
+
+  position: absolute;
+  right: 0;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.x p {
+  margin: 0;
+}
+
+.timerbtn {
+  cursor: pointer;
+}
+.timechooser {
+  background-color: #ffd400;
+  width: fit-content;
+
+  position: absolute;
+  right: 0;
+  text-align: center;
+
+
+  z-index: 2;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding-bottom: 20px;
+}
+/* .x2 {
+  background-color: red;
+  width: fit-content;
+
+  position: absolute;
+  right: 0;
+  text-align: center;
+
+  cursor: pointer;
+}
+.x2 p {
+  margin: 0;
+} */
+
+.timebtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.choosetime {
+  background-color: #1c83b8;
+  width: fit-content;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .timer {
+  margin: 0;
+} */
+.hidden {
+  display: none;
+}
+* h2 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  margin: 14.6px;
+}
+
+* p {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin: 10px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gamey</title>
+    <link rel="stylesheet" href="gamey.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">SQUARED</h1>
+      <div class="textbox">
+        <div class="scorebox">
+          <p>
+            Highscore : <span class="hiscore">0</span> <br />
+            Score : <span class="score">0</span>
+          </p>
+        </div>
+
+        <div class="timerbox">
+          <h2 class="timer">Press A to play!</h2>
+        </div>
+
+        <div class="question">
+          <p>
+            <span class="askbtn">?</span>
+            <img class="timerbtn" src="stopwatch.svg" />
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="square"></div>
+      </div>
+
+      <div class="scoreboard hidden">
+        <h2>Your score was <br /><span class="theScore">100!</span></h2>
+        <p class="comment">ok lol</p>
+        <button class="close">
+          <p>close</p>
+        </button>
+      </div>
+    </div>
+
+    <div class="tutorial hidden">
+      <div class="x">
+        <p>x</p>
+      </div>
+
+      <h2>How to play</h2>
+      <p>press a and click the square thing lol</p>
+    </div>
+
+    <div class="timechooser hidden">
+      <div class="x2 x">
+        <p>x</p>
+      </div>
+      <h2>choose your time</h2>
+      <div class="timebtns">
+        <div class="choosetime 15sec"><p>15 secs</p></div>
+        <div class="choosetime 30sec"><p>30 secs</p></div>
+        <div class="choosetime 1min"><p>1 min</p></div>
+      </div>
+      <p class="timecomment"></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="gamey.js"></script>
+  </body>
+</html>
